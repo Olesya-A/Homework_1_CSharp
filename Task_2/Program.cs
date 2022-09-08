@@ -3,15 +3,15 @@
 
 Console.WriteLine("Введите два числа");
 string input1 = Console.ReadLine(); 
-int a = int.Parse(input1); 
+int number1 = int.Parse(input1); 
 string input2 = Console.ReadLine(); 
-int b = int.Parse(input2); 
+int number2 = int.Parse(input2); 
 
-if (a > b)
+if (number1 > number2)
 {
-    Console.WriteLine($"Max = {a}");
+    Console.WriteLine($"Max = {number1}, Min = {number2}");
 }
 else 
 {
-    Console.WriteLine($"Max = {b}");
+    Console.WriteLine($"Max = {number2}, Min = {number1}");
 }
