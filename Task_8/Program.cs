@@ -5,5 +5,7 @@ Console.WriteLine("Введите число");
 string input = Console.ReadLine(); 
 int number = int.Parse(input); 
 
-for (int i = 2; i <= number; i = i + 2) 
+for (int i = 2; i <= number; i = i + 2)
+{
 Console.WriteLine(i);
+}
